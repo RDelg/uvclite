@@ -13,7 +13,7 @@ Requirements:
 -------------
 libuvc
 ::
-    git clone https://github.com/ktossell/libuvc
+    git clone https://github.com/groupgets/libuvc
     cd libuvc
     mkdir build
     cd build
