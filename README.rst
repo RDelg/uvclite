@@ -39,6 +39,10 @@ Temporary until published on PyPI
 Usage:
 -----
 
+Example code with `PureThermal webcam`_
+
+.. _PureThermal webcam: https://github.com/RDelg/uvclite/blob/master/examples/test_purethermal.py
+
 .. code:: python
 
     import uvclite
