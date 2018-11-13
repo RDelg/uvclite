@@ -18,7 +18,7 @@ with uvclite.UVCContext() as context:
     device.set_stream_format(uvc_frame_format.UVC_FRAME_FORMAT_Y16, 160, 120, 9)
     device.start_streaming()
     print("Streaming...")
-    #sleep(1) # get_frame() raises a timeout error the first time it is called if it run immediately afet start streaming.
+    #sleep(1) # get_frame() raises a timeout error the first time it is called if it run immediately after start streaming.
     while capturing:
         try:
             frame = device.get_frame()
